@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -43,6 +44,10 @@ export default {
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
+				},
+				heritage: {
+					green: 'hsl(var(--heritage-green))',
+					'green-foreground': 'hsl(var(--heritage-green-foreground))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -62,6 +67,21 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-saffron': 'var(--gradient-saffron)',
+				'gradient-heritage': 'var(--gradient-heritage)',
+				'gradient-marble': 'var(--gradient-marble)',
+				'gradient-sunset': 'var(--gradient-sunset)'
+			},
+			boxShadow: {
+				'heritage': 'var(--shadow-heritage)',
+				'gold': 'var(--shadow-gold)',
+				'depth': 'var(--shadow-depth)'
+			},
+			transitionTimingFunction: {
+				'heritage': 'var(--transition-heritage)',
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
